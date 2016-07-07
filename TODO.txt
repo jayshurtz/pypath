@@ -1,0 +1,6 @@
+- Windows support
+    - Batch script
+    - Installer
+    - Uninstaller
+    - Tests
+

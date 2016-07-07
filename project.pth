@@ -1,0 +1,10 @@
+# Example 'project.pth' file used with the pypath tool.
+# Lists project dirs containing Python packages or modules.
+# This file can be located anywhere under the project root.
+# Paths are absolute, or relative to this file.
+
+.
+../lib
+../lib/foo
+../tools
+
