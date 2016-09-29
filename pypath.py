@@ -281,8 +281,8 @@ def set_permanently(path_list):
     """
     Permanently set the PYTHONPATH environment variable.
 
-    Alters the contents of '~/.pypath', which should be sourced by the
-    shell on startup.
+    Alters the contents of '~/.pypath/default.pth', which should be
+    sourced by the shell on startup.
     """
     path_strings = ["'{}'".format(pth) for pth in path_list]
     path_string = "\nPYTHONPATH+=:".join(path_strings)
