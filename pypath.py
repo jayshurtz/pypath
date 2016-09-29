@@ -14,10 +14,8 @@ import sys
 
 DEFAULT_PATH = "~/.pypath/default.pth"
 
-# Exit codes.
-SUCCESS = 0     # Output contains PYTHONPATH.
-ERROR = 1       # Output contains error string.
-HELP = 2        # Output contains help string.
+# Enumerate return codes.
+execfile(os.path.expanduser("~/.pypath/codes"))
 
 DESCRIPTION = __doc__.strip().split('\n')[0]
 USAGE = \

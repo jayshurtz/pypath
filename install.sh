@@ -27,7 +27,7 @@ mkdir -p "${PYD}"
 
 # Install files.
 echo "${RCFS}" >> "${SITE}"
-cp "uninstall.sh" "pypath.sh" "pypath.py" "${PYD}"
+cp "uninstall.sh" "pypath.sh" "pypath.py" "codes" "${PYD}"
 chmod 755 "${PYD}/uninstall.sh" "${PYD}/pypath.py"
 chmod 644 "${SITE}" "${PYD}/pypath.sh"
 
